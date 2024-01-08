@@ -45,8 +45,8 @@ class MainActivity : AppCompatActivity() {
 
         val animatorSet = AnimatorSet()
         animatorSet.playTogether(scaleX, scaleY, fadeIn)
-        animatorSet.startDelay = 100 // Delay sebelum memulai animasi
-        animatorSet.duration = 1500 // Durasi keseluruhan animasi
+        animatorSet.startDelay = 100 
+        animatorSet.duration = 1500 
 
         animatorSet.start()
 
